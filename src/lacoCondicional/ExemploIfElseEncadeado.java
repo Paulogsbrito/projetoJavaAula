@@ -19,12 +19,11 @@ public class ExemploIfElseEncadeado {
 
 		if (media >= 6) {
 			System.out.println("Parabéns, você foi aprovado na Generation!!!");
-			
 			// trabalha no intervalo de nota 5 até 5.9, pq o intervalo de IF começa em 6 
 		} else if (media >= 5) {
 			System.out.println("Caro participante você esta de exame, boa sorte!");
 		}
-		else { // média < 5
+		else {
 			System.out.println("Infelizmente você foi reprovado, boa sorte na próxima tentativa!");
 		}
 
